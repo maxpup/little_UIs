@@ -1,0 +1,51 @@
+body{
+  margin: 0;
+  overflow: hidden;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  /*flex-wrap: nowrap;*/
+}
+.page{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  /*flex-basis:100vw;*/
+  flex-shrink: 0;
+}
+.btn_left{
+  position: fixed;
+  left: 1vw;
+  top: 38vh;
+  font-size: 3rem;
+  color: #666;
+}
+.btn_left:hover{
+  color:#fff;
+  animation: left 1s;
+}
+@keyframes left{
+  0%{transform: translateX(-1vw);}
+  25%{transform: translateX(-2vw);}
+  50%{transform: translateX(-1vw);}
+  100%{transform: translateX(0vw);}
+}
+.btn_right{
+  position: fixed;
+  right: 1vw;
+  top: 38vh;
+  font-size: 3rem;
+  color: #666;
+}
+.btn_right:hover{
+  color:#fff;
+  animation: right 1s;
+}
+@keyframes right{
+  0%{transform: translateX(1vw);}
+  25%{transform: translateX(2vw);}
+  50%{transform: translateX(1vw);}
+  100%{transform: translateX(0vw);}
+
+}
