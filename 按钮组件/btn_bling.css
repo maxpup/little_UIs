@@ -1,0 +1,30 @@
+:root {
+  --primary-color: #0099FF;
+  --primary-light-color:#00CCFF;
+}
+.btn{
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.4rem 0.8rem;
+  margin: 1rem;
+  color: #fff;
+  /*border: 1px #000 solid;*/
+  background-color: #0099FF;
+}
+.btn:hover{
+  animation: bling 0.5s ease 1;
+}
+@keyframes bling{
+  0% {background-image: linear-gradient(45deg, var(--primary-color) 0%, var(--primary-light-color) 50%);}
+  10% {background-image: linear-gradient(45deg, var(--primary-color) 0%, var(--primary-light-color) 55%);}
+  20% {background-image: linear-gradient(45deg, var(--primary-color) 0%, var(--primary-light-color) 60%);}
+  30% {background-image: linear-gradient(45deg, var(--primary-color) 0%, var(--primary-light-color) 65%);}
+  40% {background-image: linear-gradient(45deg, var(--primary-color) 0%, var(--primary-light-color) 70%);}
+  50% {background-image: linear-gradient(45deg, var(--primary-color) 0%, var(--primary-light-color) 75%);}
+  60% {background-image: linear-gradient(45deg, var(--primary-color) 0%, var(--primary-light-color) 80%);}
+  70% {background-image: linear-gradient(45deg, var(--primary-color) 0%, var(--primary-light-color) 85%);}
+  80% {background-image: linear-gradient(45deg, var(--primary-color) 0%, var(--primary-light-color) 90%);}
+  90% {background-image: linear-gradient(45deg, var(--primary-color) 0%, var(--primary-light-color) 95%);}
+  100% {background-image: linear-gradient(45deg, var(--primary-color) 0%, var(--primary-light-color) 100%);}
+
+}

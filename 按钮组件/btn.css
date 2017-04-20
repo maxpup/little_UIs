@@ -1,0 +1,28 @@
+.btn{
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.4rem 0.8rem;
+  margin: 1rem;
+  color: #fff;
+}
+.btn:hover{
+  transform: scale(1.2);
+  transition: transform 0.5s;
+}
+.btn:active{
+  color: #999;
+}
+
+
+.btn-primary{
+  background: #0099FF;
+}
+.btn_warning{
+  background: #FF3333;
+}
+.btn_pass{
+  background: #33CC66;
+}
+.btn_info{
+  background: #FF9933;
+}
